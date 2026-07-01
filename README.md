@@ -139,34 +139,7 @@ ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.0}, angular: {z:
 ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.0}, angular: {z: 0.0}}"
 ```
 
-## Serial Monitor Output
 
-The serial monitor displays:
-
-- Wi-Fi connection status
-- ESP32 IP address
-- micro-ROS initialization status
-- Incoming linear velocity
-- Incoming angular velocity
-- Left motor PWM
-- Right motor PWM
-
-## Future Improvements
-
-- Wheel encoder integration
-- PID speed control
-- Odometry publishing
-- Battery monitoring
-- Obstacle avoidance
-- Autonomous navigation
-
-## Contributing
-
-Contributions are welcome. Feel free to fork this repository, create a new branch, and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Author
 
